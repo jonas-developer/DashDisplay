@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/bin/node /Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/bin/yarn add express-js
+
+PATH: 
+  /Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-js: Not found
+      at params.callback [as _callback] (/Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/Users/jonaskazmierczak/.nvm/versions/node/v20.5.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1376:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "DashDisplay",
+    "version": "1.0.0",
+    "description": "Displays a Dashboard with Ingame Data",
+    "main": "index.js",
+    "repository": "https://github.com/jonas-developer/DashDisplay.git",
+    "author": "Jonas",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

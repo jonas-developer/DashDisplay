@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type= "text" id="input">
+        <button id="get">GET</button>
+        <button id="post">POST</button>
+    </form>
+</body>
+<script>
+    const getbtn = document.getElementById('get')
+    const postbtn = document.getElementById('post')
+    const input = document.getElementById('input')
+    const baseUrl = 'http://localhost:8383/'
+
+    getbtn.addEventListener('click', getInfo)
+
+    async function getInfo(e){
+        e.preventDefault()
+        const res = await fetch(baseUrl, 
+        {
+            method: 'GET'
+        })
+        console.log(res)
+    }
+    async function postInfo(){
+        
+    }
+</script>
+</html>
