@@ -4,27 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="getdata.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="hazard" class="hazard"><img src="https://www.svgrepo.com/show/112164/hazard.svg" alt="hazard"></div>
 </body>
-<script>
-    const baseUrl = 'http://localhost:8383'
-
-    getbtn.addEventListener('click', getInfo)
-
-    setInterval(getInfo, 1000); 
-
-    async function getInfo(){
-        const res = await fetch(baseUrl + "/dashboardinfo", 
-        {
-            method: 'GET'
-        })
-        const data = await res.json()
-        console.log(data)
-    };
-
-    getInfo();
-
-    
-</script>
 </html>
